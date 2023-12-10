@@ -25,3 +25,27 @@ The aim of the Electric Vehicle Population analysis project is to comprehensivel
 7. **Global Initiatives:** Governments and organizations worldwide are setting ambitious targets to transition to a cleaner, more sustainable transportation system. Initiatives include banning the sale of new internal combustion engine vehicles, investing in research and development, and collaborating with the private sector to accelerate the adoption of electric vehicles.
 
 Overall, the electric vehicle population represents a transformative shift in the automotive industry, contributing to a more sustainable and eco-friendly future for transportation. As technology continues to evolve and infrastructure improves, electric vehicles are likely to play an increasingly integral role in the global automotive landscape.
+
+
+## Analysis Queries
+
+1. Find the number of cities in each county.
+2. List the different electric vehicle models present in the database.
+3. What is the total number of electric cars by make?
+4. What is the total number of unique models of electric cars by make?
+5. What are the 10 Most common electric vehicle models?
+6. Which electric vehicle type is commonly sold?
+7. Identify the top ten cities with the highest electric vehicle population.
+8. Which year has sold themost number of electric cars?
+9. Count the number of charging slots available for electric vehicles.
+10. Find the cities with the highest density of charging slots.
+11. Determine the Average range of electric vehicles by make.
+12. Determine the percentage distribution of each electric vehicle make.
+13. Determine the percentage distribution of each electric vehicle model.
+14. What is the total number of cars manufactured by Make according to Electric vehicle type?
+15. What is the total number of models manufactured by Make according to Electric vehicle type?
+16. Determine the percentage of Eligibility of vehicles for Clean Alternative Fuel Vehicle.
+17. Which Models of vehicles are eligible to qualify as Clean Alternative Fuel Vehicle?
+18. What is the average range of electric vehicles?
+19. What is the average range of electric vehicles which qualify for Clean Alternative Fuel Vehicle?
+20. What is the average range of electric vehicles which are not eligible due to low battery range?
