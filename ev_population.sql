@@ -81,7 +81,7 @@ FROM e_vehicles
 GROUP BY City
 ORDER BY Num_Charging_slots DESC;
 
--- 11. Average range of electric vehicles
+-- 11. Determine the Average range of electric vehicles by make.
 SELECT Make, AVG(Electric_Range) AS avg_range
 FROM e_vehicles
 WHERE Electric_Range <> 0
@@ -122,7 +122,7 @@ GROUP BY Make, Model, Electric_Vehicle_Type
 ORDER BY Make, Model, Electric_Vehicle_Type, Cnt_EV DESC;
 
 
--- 16. Determine the Eligibility of vehicles for Clean Alternative Fuel Vehicle Eligibility
+-- 16. Determine the percentage of Eligibility of vehicles for Clean Alternative Fuel Vehicle Eligibility
 SELECT Clean_Alternative_Fuel_Vehicle_Eligibility, COUNT(Clean_Alternative_Fuel_Vehicle_Eligibility) AS Count_Fuel_Eligibility,
 	CASE
 		WHEN Clean_Alternative_Fuel_Vehicle_Eligibility = 'Clean Alternative Fuel Vehicle Eligible' THEN 'Eligible'
